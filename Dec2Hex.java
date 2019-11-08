@@ -21,6 +21,9 @@ class Dec2Hex
         } else if (args.length == 0) {
 			System.err.println("There has been no input detected.");
 			System.exit(0);
+		} else {
+			System.err.println("Invalid input detected.");
+			System.exit(0);
 		}
 
     	char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
